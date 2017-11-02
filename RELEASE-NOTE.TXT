@@ -1,0 +1,16 @@
+version 1.0
+---------------------------------------------------
+* Create web page containing grid with open street map.
+* once click the link it will load respective cell in to JOSM(remote control need to enable in JSOM)
+
+version 2.0
+---------------------------------------------------
+* Required java 6 (downgraded from 8 to 6).
+* unique identifier for working with multiple files same time
+* Now page can memorize what you edit. 
+ - you need to right click on letter J . 
+ - pop up will come and ask to Mark the area as done.
+ - click yes and then that cell will tern in to green.
+ - you can close and open web page still it will show marked cells .
+ - do not move you web page if you change the location it cannot load the previous data. 
+ - you can clear marked cell by right click and click can cell in pop up.
